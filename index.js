@@ -31,7 +31,7 @@ HomeScreen.options = {
 
 const SettingsScreen = (props) => {
   return (
-    <View style={styles.root}>
+    <View style={styles.settings}>
       <Text>Settings Screen</Text>
 
       <Button
@@ -58,7 +58,7 @@ SettingsScreen.options = {
 
 const SettingsScreen2 = (props) => {
   return (
-    <View style={styles.root}>
+    <View style={styles.settings2}>
       <Text>Settings Screen2</Text>
 
       <Button
@@ -146,8 +146,20 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: 'whitesmoke'
-  }
+    backgroundColor: 'gray'
+  },
+  settings: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'orange'
+  },
+  settings2: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'green'
+  },
 });
 
 
